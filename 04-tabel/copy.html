@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_h1" style="text-transform: uppercase;">anjay yang gede</h1>
+        <p class="header_p">cuma contoh doang</p>
+        <nav class="nav">
+            <a class="nav_a" href="https://www.facebook.com/">facebook1</a>
+            <a class="nav_a" href="https://www.facebook.com/">facebook2</a>
+            <a class="nav_a" href="https://www.facebook.com/">facebook3</a>
+            <a class="nav_a" href="https://www.facebook.com/">facebook4</a>
+            <a class="nav_a" href="https://www.facebook.com/">facebook5</a>
+            <a class="nav_a" href="https://www.facebook.com/">facebook6</a>
+        </nav>
+    </header>
+    <h1 class="h1">tabel</h1>
+    <table>
+        <thead>
+            <tr class="tr-pertama">
+                <th>ini kolom 1</th>
+                <th>ini kolom 2</th>
+                <th>ini kolom 3</th>
+                <th>ini kolom 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tr-kedua">
+                <td>ini tabel data 1-1</td>
+                <td>ini tabel data 1-2</td>
+                <td>ini tabel data 1-3</td>
+                <td>ini tabel data 1-4</td>
+            </tr>
+            <tr class="tr-kedua">
+                <td>ini tabel data 2-1</td>
+                <td>ini tabel data 2-2</td>
+                <td>ini tabel data 2-3</td>
+                <td>ini tabel data 2-4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="tr-ketiga">
+                <td style="text-shadow: 0 0 5px rgb(1, 65, 73);" colspan="4">ini yang terakhir bagian tabel footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a class="a1" href="../index.html" >balik</a>
+    <style>
+        *{
+            margin: 0;
+            padding: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .header{
+            text-align: center;
+            background-color: rgb(134, 165, 165);
+        }
+        .header_p{
+            color: rgb(254, 254, 255);
+        }
+        .header_h1{
+            background-color: pink;
+        }
+        nav{
+            background-color: black;
+            padding: 12px;
+            margin-top: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+        .nav_a{
+            padding: 12px;
+            margin: 5px;
+            color: aliceblue;
+            text-decoration: solid;
+            text-align: center;
+        }
+        .nav_a:hover{
+            background-color: azure;
+            color: black;
+        }
+        .h1{
+            background-color: rgb(243, 84, 84);
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Arial';
+            color: rgb(252, 172, 0);
+            text-shadow: 0 0 15px rgb(76, 0, 255);
+            margin: 0;
+        }
+
+        body{
+            background-color: rgb(252, 172, 0);
+            background: radial-gradient(
+        circle farthest-side at 0% 50%,
+        #fb1 23.5%,
+        rgba(240, 166, 17, 0) 0
+      )
+      21px 30px,
+    radial-gradient(
+        circle farthest-side at 0% 50%,
+        #b71 24%,
+        rgba(240, 166, 17, 0) 0
+      )
+      19px 30px,
+    linear-gradient(
+        #fb1 14%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 85%,
+        #fb1 0
+      )
+      0 0,
+    linear-gradient(
+        150deg,
+        #fb1 24%,
+        #b71 0,
+        #b71 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #b71 0,
+        #b71 76%,
+        #fb1 0
+      )
+      0 0,
+    linear-gradient(
+        30deg,
+        #fb1 24%,
+        #b71 0,
+        #b71 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #b71 0,
+        #b71 76%,
+        #fb1 0
+      )
+      0 0,
+    linear-gradient(90deg, #b71 2%, #fb1 0, #fb1 98%, #b71 0%) 0 0 #fb1;
+  background-size: 40px 60px;
+                            
+        }
+        table{
+            border: 5px solid rgb(76, 0, 255);
+            background-color: rgb(76, 0, 255);
+            margin:px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+       
+        th{
+            background-color: white;
+            width: 1000px;
+            font-family: Helvetica;
+            font-weight: 600;
+            border: 2px solid rgb(76, 0, 255);
+            
+        }
+        td{
+            border: 1px solid white;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 15px;
+            width: 1000px;
+            text-align: center;
+            font-family: Helvetica;
+            font-weight: 600;
+        }
+        tfoot{
+            background-color: rgb(252, 172, 0)
+        
+            
+        }
+
+        .a1{
+            font-size: 30px;
+            background-color: #fb1;
+            text-shadow: 0 0 10px rgb(255, 255, 255);
+            text-decoration: none;
+            color:rgb(1, 65, 73);
+            display: inline-block;
+            border-radius: 10PX;
+            text-align:center;
+            padding-right: 20px;
+            padding-left: 20px;
+            border: 2px solid red;
+        
+        }
+        .a1:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(245, 245, 245);
+            text-shadow: 0 0 10px rgb(1, 65, 73);
+            border: 2px solid blueviolet;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 25PX;
+            transition: 0.3s;
+            
+        }
+
+    </style>
+</body>
+</html>
